@@ -14,6 +14,7 @@ app.get('/', (req,res)=>{
     res.status(200).json({message: 'aplicação rolando'})
 })
 
+
 //------------------------------------------------------
 app.listen(PORT, hostname, ()=> {
     console.log("servidor esta rodando")
